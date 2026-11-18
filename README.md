@@ -10,7 +10,9 @@
 | Cloud (AWS) | EC2, ECS Fargate, RDS, S3, SQS, Lambda, EventBridge Scheduler, Secrets Manager, IAM |
 | Cloud (Azure) | Virtual Machines, App Service, Functions, Cosmos DB |
 | Container / CI | Docker, Docker Compose, GitHub Actions, LocalStack |
+| AI Tools | Claude Code |
 | Backend | Go, Python (FastAPI), Java (Spring Boot) |
+| Desktop | C# (.NET, WPF), SQLite |
 | Frontend | React, Vite |
 | Database | PostgreSQL |
 
@@ -66,7 +68,24 @@
   <br>API keys managed with Secrets Manager
 - `AWS Lambda` `EventBridge Scheduler` `Secrets Manager` `OpenAI API`
 
-### 5. Azure 실습 — 클라우드 응용 SW 개발 수업
+### 5. PlayTimeTracker — 윈도우 프로그램 사용 시간 자동 기록 앱 (개인)
+**PlayTimeTracker — Automatic usage-time tracker for Windows (personal)**
+
+[lsz09/playtiem](https://github.com/lsz09/playtiem)
+
+- 스마트폰 스크린타임처럼, 실행 중인 게임과 개발 도구의 사용 시간을 등록 없이 자동으로 기록하는 트레이 프로그램
+  <br>A tray app that automatically records how long games and dev tools run, like screen time on a phone
+- 실행 시간과 실제로 창을 앞에 두고 쓴 포커스 시간을 따로 집계하고, 5분간 입력이 없으면 자리 비움으로 처리
+  <br>Tracks running time and focus time separately, pausing focus time after 5 minutes of inactivity
+- 기간별 통계와 기간 비교, 게임 자동 인식, 여러 프로세스 묶기, 사용 시간 알림 기능
+  <br>Period statistics and comparisons, automatic game detection, process grouping, and usage alerts
+- 기록은 PC 안의 SQLite에만 저장하고, Inno Setup으로 관리자 권한 없이 설치되는 설치 파일 제작
+  <br>Data stays local in SQLite; packaged with Inno Setup as a per-user installer that needs no admin rights
+- Claude Code를 활용해 개발
+  <br>Developed with Claude Code
+- `C#` `.NET` `WPF` `SQLite` `Inno Setup` `Claude Code`
+
+### 6. Azure 실습 — 클라우드 응용 SW 개발 수업
 **Azure Labs — Cloud Application Development course**
 
 - Azure 가상 머신, App Service, Functions, Cosmos DB를 써서 웹앱 공개와 데이터베이스 연동 실습
