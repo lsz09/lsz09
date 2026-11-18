@@ -71,7 +71,7 @@
 ### 5. PlayTimeTracker — 윈도우 프로그램 사용 시간 자동 기록 앱 (개인)
 **PlayTimeTracker — Automatic usage-time tracker for Windows (personal)**
 
-[lsz09/playtiem](https://github.com/lsz09/playtiem)
+[lsz09/playtime-tracker](https://github.com/lsz09/playtime-tracker)
 
 - 스마트폰 스크린타임처럼, 실행 중인 게임과 개발 도구의 사용 시간을 등록 없이 자동으로 기록하는 트레이 프로그램
   <br>A tray app that automatically records how long games and dev tools run, like screen time on a phone
